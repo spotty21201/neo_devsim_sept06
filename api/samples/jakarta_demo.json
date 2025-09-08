@@ -1,0 +1,23 @@
+{
+  "id": "jakarta-13_8ha-demo",
+  "reg": {
+    "site_area_m2": 138000,
+    "kdb": 0.45,
+    "klb": 6.9,
+    "max_floors": 70,
+    "max_height_m": 280,
+    "floor_to_floor_m": 3.8,
+    "efficiency_override": 0.75
+  },
+  "tracts": [
+    { "id": "road-1", "type": "road", "row_m": 24, "length_m": 862.5, "area_m2": 20700, "buildable": false },
+    { "id": "park-1", "type": "park", "area_m2": 30360, "buildable": false },
+    { "id": "infra-1", "type": "infra", "area_m2": 6000, "buildable": false }
+  ],
+  "lots": [
+    {"id":"LOT-001","area_m2":20000,"use":"resi","typology":{"podium_levels":5,"podium_footprint_m2":10000,"tower_floors":55,"tower_plate_m2":2200,"efficiency":0.82}},
+    {"id":"LOT-002","area_m2":18000,"use":"resi","typology":{"podium_levels":5,"podium_footprint_m2":9000,"tower_floors":55,"tower_plate_m2":2200,"efficiency":0.82}},
+    {"id":"LOT-003","area_m2":25000,"use":"mixed","typology":{"podium_levels":6,"podium_footprint_m2":14000,"tower_floors":70,"tower_plate_m2":2500,"efficiency":0.78}},
+    {"id":"LOT-004","area_m2":17940,"use":"convention","typology":{"podium_levels":3,"podium_footprint_m2":16000,"tower_floors":0,"tower_plate_m2":0,"efficiency":0.75}}
+  ]
+}

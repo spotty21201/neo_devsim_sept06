@@ -1,0 +1,7 @@
+[
+  { "component": "Buildings", "basis": "gfa", "rate": 6500000, "unit": "IDR/m² GFA" },
+  { "component": "Roads", "basis": "area", "rate": 900000, "unit": "IDR/m²" },
+  { "component": "Parks & Landscape", "basis": "area", "rate": 600000, "unit": "IDR/m²" },
+  { "component": "Infrastructure", "basis": "lump", "rate": 150000000000, "unit": "IDR lump" }
+]
+
